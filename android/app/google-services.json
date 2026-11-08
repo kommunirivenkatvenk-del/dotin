@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "797084745444",
+    "project_id": "alto-service",
+    "storage_bucket": "alto-service.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797084745444:android:9aea872729157c6115f6f1",
+        "android_client_info": {
+          "package_name": "com.altoservice.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKSlNBMXvd-4P7tROMNfiriLBNwm0l1zc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797084745444:android:ba391ff88a4040ef15f6f1",
+        "android_client_info": {
+          "package_name": "com.example.dotin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKSlNBMXvd-4P7tROMNfiriLBNwm0l1zc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

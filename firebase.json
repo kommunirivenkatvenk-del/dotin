@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "alto-service",
+          "appId": "1:797084745444:android:ba391ff88a4040ef15f6f1",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "alto-service",
+          "configurations": {
+            "android": "1:797084745444:android:ba391ff88a4040ef15f6f1",
+            "ios": "1:797084745444:ios:12971ca482e9443515f6f1",
+            "macos": "1:797084745444:ios:12971ca482e9443515f6f1",
+            "web": "1:797084745444:web:4a66c72f31b5503415f6f1",
+            "windows": "1:797084745444:web:ae091388a8172a3515f6f1"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
