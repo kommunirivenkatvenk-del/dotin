@@ -23,13 +23,12 @@ jobs:
         with:
           channel: 'stable'
 
-      - name: Configure Flutter JDK
-        run: flutter config --jdk-dir="${JAVA_HOME}"
-
       - name: Get dependencies
         run: flutter pub get
 
       - name: Build Android App Bundle (.aab)
+        env:
+          JAVA_HOME: ${{ env.JAVA_HOME_17_X64 }}
         run: flutter build appbundle --release --no-codesign
 
       - name: Upload Release AAB Artifact
