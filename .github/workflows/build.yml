@@ -23,6 +23,9 @@ jobs:
         with:
           channel: 'stable'
 
+      - name: Configure Flutter JDK
+        run: flutter config --jdk-dir="${JAVA_HOME}"
+
       - name: Get dependencies
         run: flutter pub get
 
